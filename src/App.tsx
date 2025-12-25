@@ -127,14 +127,14 @@ function App() {
               </p>
               
               <div className="flex items-center gap-6">
-                <a href="mailto:info@halogrid.ca" className="flex items-center gap-2 text-slate-400 hover:text-cyan-400 transition-colors group">
+                <a href="mailto:halogriditsolutions@gmail.com" className="flex items-center gap-2 text-slate-400 hover:text-cyan-400 transition-colors group">
                   <Mail className="w-4 h-4 group-hover:scale-110 transition-transform" />
-                  <span className="text-sm">info@halogrid.ca</span>
+                  <span className="text-sm">halogriditsolutions@gmail.com</span>
                 </a>
-                <a href="tel:+15551234567" className="flex items-center gap-2 text-slate-400 hover:text-cyan-400 transition-colors group">
+                {/* <a href="tel:+15551234567" className="flex items-center gap-2 text-slate-400 hover:text-cyan-400 transition-colors group">
                   <Phone className="w-4 h-4 group-hover:scale-110 transition-transform" />
                   <span className="text-sm">+1 (555) 123-4567</span>
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
