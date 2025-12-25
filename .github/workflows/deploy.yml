@@ -31,8 +31,13 @@ jobs:
         run: npm run build
       
       - name: Copy CNAME to dist
-        run: cp CNAME dist/CNAME
-        continue-on-error: true
+        run: |
+          if [ -f CNAME ]; then
+            cp CNAME dist/CNAME
+            echo "CNAME file copied successfully"
+          else
+            echo "CNAME file not found, skipping..."
+          fi
       
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
