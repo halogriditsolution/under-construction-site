@@ -131,6 +131,9 @@ function App() {
                   <Mail className="w-4 h-4 group-hover:scale-110 transition-transform" />
                   <span className="text-sm">halogriditsolutions@gmail.com</span>
                 </a>
+                <a href="https://canlist.ca/halogrid-it-solutions" target="_blank" rel="noopener noreferrer">
+                  <img src="https://canlist.ca/assets/images/verify1.png" alt="Canada Local Business" className="h-8" />
+                </a>
                 {/* <a href="tel:+15551234567" className="flex items-center gap-2 text-slate-400 hover:text-cyan-400 transition-colors group">
                   <Phone className="w-4 h-4 group-hover:scale-110 transition-transform" />
                   <span className="text-sm">+1 (555) 123-4567</span>
